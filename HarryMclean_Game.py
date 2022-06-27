@@ -76,7 +76,7 @@ btn_quit = tkinter.Button(root, text="Quit", command=root.destroy)
 btn_quit.pack()
 
 text  = tkinter.StringVar()
-text.set("You have " + str(cardNum) + " guesses left") 
+text.set("You have " + str(diceRoll) + " guesses left") 
 
 guess_attempts= tkinter.Label(root, textvariable=text)
 guess_attempts.pack()
